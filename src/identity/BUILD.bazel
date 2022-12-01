@@ -1,0 +1,15 @@
+load("@io_bazel_rules_dotnet//dotnet:defs.bzl", "csharp_binary")
+
+package(default_visibility = ["//visibility:public"])
+
+csharp_binary(
+  name = "identity.dll",
+  srcs = [
+    "Program.cs",
+  ],
+  deps = [
+    "@core_sdk_stdlib//:Microsoft.AspNetCore.App",
+    "@core_sdk_stdlib//:libraryset",
+    "@swashbuckle.aspnetcore//:lib"
+  ],
+)

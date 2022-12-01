@@ -1,0 +1,11 @@
+﻿{
+  "externals": {},
+  "dependencies": {
+    "Microsoft.Extensions.ApiDescription.Server": "6.0.11",
+    "Microsoft.OpenApi": "1.4.4",
+    "Swashbuckle.AspNetCore.Swagger": "6.4.0",
+    "Swashbuckle.AspNetCore.SwaggerGen": "6.4.0",
+    "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0",
+    "Swashbuckle.AspNetCore": "6.4.0"
+  }
+}
